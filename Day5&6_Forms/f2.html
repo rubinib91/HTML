@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Farmer</title>
+    </head>
+    <body>
+        <center>
+            <h1>Welcome To The Farmer's World</h1>
+            <img src="Pictures/first1.jpg" alt="Welcome Image">
+            </center>
+            <h2>Read the Instructions Carefully and Fill the Form</h2>
+                <ul>
+                    <li>Must have a cultivating land</li>
+                    <li>Must be a hard worker</li>
+                    <li>Must have patience</li>
+                    <li>Understanding soil,weather,seeds</li>
+                    <li>Knowledge of pesticides</li>
+                    <li>Know about the local market</li>
+                </ul>
+                <center>
+                <form action="farm.html" method="get">
+                    <label>Enter your Name :</label>
+                    <input type="text" placeholder="Enter in Captial">
+                    <br><br>
+                    <label>Enter Your Gender :</label>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <br><br>
+                    <label>Enter DOB</label>
+                    <input type="datetime-local">
+                    <br><br>
+                    <label>Enter Mobile Number :</label>
+                    <input type="tel" placeholder="Must have 10 digits">
+                    <br><br>
+                    <label>Enter Email Address :</label>
+                    <input type="email" placeholder="ex@gamil.com">
+                    <br><br>
+                    <label>Enter Permanent Address : </label>
+                    <textarea required></textarea> 
+                    <br><br>
+                    <label>Enter Your Skills :</label>
+                    <input type="checkbox" name="skills">Irrigation
+                    <input type="checkbox" name="skills">Crop cultivation
+                    <input type="checkbox" name="skills">Soil Management
+                    <input type="checkbox" name="skills">Grains storage
+                    <input type="checkbox" name="skills">Driving Tractor
+                    <br><br>
+                    <label>Enter Farming Method : </label>
+                    <select>
+                        <option value="" selected disabled>Choose any one</option>
+                        <option value="Organic Farming">Organic Farming</option>
+                        <option value="Greenhouse farming">Greenhouse farming</option>
+                        <option value="Terreace farming">Terrace farming</option>
+                        <option value="Mixed farming">Mixed farming</option>
+                    </select>
+                    <br><br>
+                    <label>Upload Photo</label>
+                    <input type="file" >
+                    <br><br>
+                    <label>Upload Signature</label>
+                    <input type="file" accept=".jpg,.pdf,.png">
+                    <br><br>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                    </center>
+                </form>
+    </body>
+    </html>
